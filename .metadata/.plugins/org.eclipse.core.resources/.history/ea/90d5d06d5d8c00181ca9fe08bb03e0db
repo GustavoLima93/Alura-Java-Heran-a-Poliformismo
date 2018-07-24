@@ -1,0 +1,13 @@
+
+public class TestandoWhile {
+
+	public static void main(String[] args) {
+		int contado = 0;
+		
+		while(contado <= 10) {
+			System.out.println(contado);
+		}
+
+	}
+
+}

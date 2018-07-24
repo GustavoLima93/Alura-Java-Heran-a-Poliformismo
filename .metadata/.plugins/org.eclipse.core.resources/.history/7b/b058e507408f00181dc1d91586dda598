@@ -1,0 +1,11 @@
+
+public class TestaFuncionario {
+
+	public static void main(String[] args) {
+		
+		Funcionario funcionario = new Funcionario("Gustavo Henrique de Lima", "408.063.968.65", 3000);
+		
+		System.out.println(funcionario);
+	}
+
+}
