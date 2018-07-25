@@ -5,10 +5,8 @@ public class TestaReferencia {
 		
 		  Gerente g1 = new Gerente();
           g1.setNome("Marcos");
-          g1.setSalario(10000.0);
-          
-          Funcionario f1 = new Funcionario();
-          f1.setSalario(2000.0);
+          g1.setSalario(10000.0);          
+         
           
           Desenvolvedor d1 = new Desenvolvedor();
           d1.setSalario(5000.0);
@@ -18,8 +16,7 @@ public class TestaReferencia {
           
           ControleBonificacao controle = new ControleBonificacao();
           
-          controle.registra(g1);
-          controle.registra(f1);
+          controle.registra(g1);          
           controle.registra(d1);
           controle.registra(c1);
           

@@ -3,7 +3,7 @@ public class TestaFuncionario {
 
 	public static void main(String[] args) {
 		
-		Funcionario funcionario = new Funcionario();
+		Funcionario funcionario = new Desenvolvedor();
 		funcionario.setNome("Gustavo Henrique de Lima");
 		funcionario.setCpf("408.063.968-65");
 		funcionario.setSalario(3000);

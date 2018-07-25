@@ -1,5 +1,5 @@
 
-public class Funcionario {
+public abstract class Funcionario {
 	
 	private String nome;
 	private String cpf;
@@ -14,9 +14,7 @@ public class Funcionario {
 //		System.out.println("Parabens !! " + this.nome + " você é o novo funcionario do bytebank.");
 //	}
 	
-	public double getBonificacao() {		
-		return this.salario * 0.1;
-	}	
+	public abstract double getBonificacao(); 
 	
 	public String getNome() {
 		return this.nome;
