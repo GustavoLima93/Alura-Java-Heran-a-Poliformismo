@@ -1,25 +1,29 @@
 
-public class Gerente extends Funcionario {
+public class Gerente extends Funcionario implements Adm {
+	
+	 private AutenticacaoUtil util;
 
-	private int senha;
-
-	public boolean autenticacao(int senha) {
-		if (this.senha == senha) {
-			System.out.println("Autenticado");
-			return true;
-		} else {
-			System.out.println("Ocorreu um erro");
-			return false;
-		}
+	public Gerente() {
+		 this.util = new AutenticacaoUtil();
 	}
 
 	public double getBonificacao() {
 		System.out.println("Chamando o método Bonificação GERENTE");
 		return  super.getSalario();
 	}
-	
-	public void setSenha(int senha) {
-		this.senha = senha;
+
+	@Override
+	public boolean autenticacao(int senha) {
+		return this.util.autenticacao(senha);
 	}
+
+	@Override
+	public void setSenha(int senha) {
+		this.util.setSenha(senha);
+		
+	}
+	
+	
+	
 
 }

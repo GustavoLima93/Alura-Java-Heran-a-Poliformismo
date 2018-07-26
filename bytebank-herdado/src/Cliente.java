@@ -1,15 +1,10 @@
 
-public class Desenvolvedor extends Funcionario implements Adm {
+public class Cliente implements Adm {
 
 	private AutenticacaoUtil util;
 
-	public Desenvolvedor() {
+	public Cliente() {
 		this.util = new AutenticacaoUtil();
-	}
-
-	public double getBonificacao() {
-		System.out.println("Chamando o método Bonificação DESENVOLVEDOR");
-		return 100;
 	}
 
 	@Override
@@ -22,4 +17,5 @@ public class Desenvolvedor extends Funcionario implements Adm {
 		this.util.setSenha(senha);
 		
 	}
+	
 }
