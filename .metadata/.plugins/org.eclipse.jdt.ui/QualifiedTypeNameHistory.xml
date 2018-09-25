@@ -16,4 +16,9 @@
 <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 <fullyQualifiedTypeName name="MinhaExcessao"/>
 <fullyQualifiedTypeName name="Conexao"/>
+<fullyQualifiedTypeName name="br.com.bytebank.especial.ContaEspecial"/>
+<fullyQualifiedTypeName name="br.com.bytebank.modelo.GuardadorDeContas"/>
+<fullyQualifiedTypeName name="br.com.bytebank.modelo.ContaCorrente"/>
+<fullyQualifiedTypeName name="br.com.bytebank.modelo.Conta"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
