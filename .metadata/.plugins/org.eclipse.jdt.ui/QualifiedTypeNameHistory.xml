@@ -6,4 +6,14 @@
 <fullyQualifiedTypeName name="Funcionario"/>
 <fullyQualifiedTypeName name="ControleBonificacao"/>
 <fullyQualifiedTypeName name="Desenvolvedor"/>
+<fullyQualifiedTypeName name="AutenticacaoUtil"/>
+<fullyQualifiedTypeName name="ContaCorrente"/>
+<fullyQualifiedTypeName name="SeguroDeVida"/>
+<fullyQualifiedTypeName name="Tributaveis"/>
+<fullyQualifiedTypeName name="CalculadorImposto"/>
+<fullyQualifiedTypeName name="javax.sql.rowset.spi.TransactionalWriter"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="MinhaExcessao"/>
+<fullyQualifiedTypeName name="Conexao"/>
 </qualifiedTypeNameHistroy>

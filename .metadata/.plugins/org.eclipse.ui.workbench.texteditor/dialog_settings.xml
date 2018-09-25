@@ -2,12 +2,14 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="public Funcionario(String nome, String cpf, double salario) {" key="selection"/>
+		<item value="&#x09;public static void main(String[] args) {" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="&#x09;public static void main(String[] args) {"/>
+			<item value="s.autentica(g);"/>
 			<item value="public Funcionario(String nome, String cpf, double salario) {"/>
 		</list>
 		<list key="replacehistory">
